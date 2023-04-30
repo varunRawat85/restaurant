@@ -32,3 +32,13 @@
 .abt_img{
   height:100%
 }
+.why_us{
+  background-color: #eee;
+}
+#why_us_box{
+ background-color: red ;
+}
+.why_us_side_box:hover{
+  transform: scale(1.1 , 1.1) !important;
+  box-shadow: 0px 0px 25px  rgb(114, 210, 255);;
+}
