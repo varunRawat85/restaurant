@@ -40,7 +40,7 @@
 .abt_img{
   height:100%
 }
-.saying_us,.why_us,.chef{
+.saying_us,.why_us,.chef,.form_1{
   background-color: #eee;
 }
 #why_us_box{
@@ -48,12 +48,14 @@
 }
 .why_us_side_box:hover{
   transform: scale(1.1 , 1.1) !important;
+  transition-duration: 2s ;
+    transition-timing-function: ease-out;
   box-shadow: 0px 0px 25px  rgb(114, 210, 255);;
 }
 .count_ban{
- background-size: cover;
- background-repeat: no-repeat;
- height:380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:380px;
  background-position: 50% 45%;
  background-image: url(images/stats-bg.jpg) !important; 
 }
@@ -68,4 +70,13 @@
 }
 .chef{
   padding: 70px !important; 
+}
+.chef_box:hover{
+  transform: scale(1.1 , 1.1) !important;
+  transition-duration: 2s ;
+  transition-timing-function: ease;
+  box-shadow: 0px 0px 10px  rgb(24, 32, 36);
+}
+.form_1{
+
 }
