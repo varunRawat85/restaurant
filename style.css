@@ -1,6 +1,14 @@
 .navbar-collapse{
     margin-left:200px
 }
+.navbar-nav:hover li{
+  opacity: .2;
+  filter: blur(2px);
+}
+.navbar-nav>.nav-item:hover{
+  opacity: 1;
+  filter: blur(0px);
+}
 .header-link:hover{
   color:red !important;
   text-decoration: underline;
@@ -32,7 +40,7 @@
 .abt_img{
   height:100%
 }
-.why_us{
+.saying_us,.why_us,.chef{
   background-color: #eee;
 }
 #why_us_box{
@@ -41,4 +49,23 @@
 .why_us_side_box:hover{
   transform: scale(1.1 , 1.1) !important;
   box-shadow: 0px 0px 25px  rgb(114, 210, 255);;
+}
+.count_ban{
+ background-size: cover;
+ background-repeat: no-repeat;
+ height:380px;
+ background-position: 50% 45%;
+ background-image: url(images/stats-bg.jpg) !important; 
+}
+.saying_us{
+  padding: 100px !important; 
+}
+.inner_saying_us{
+  width:70% !important;
+}
+.caro_use{
+  border-left:3px solid red !important;
+}
+.chef{
+  padding: 70px !important; 
 }
