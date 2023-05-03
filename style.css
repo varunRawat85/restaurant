@@ -40,7 +40,7 @@
 .abt_img{
   height:100%
 }
-.saying_us,.why_us,.chef,.form_1{
+.saying_us,.why_us,.chef,.form_1,.contact_in{
   background-color: #eee;
 }
 #why_us_box{
@@ -77,6 +77,12 @@
   transition-timing-function: ease;
   box-shadow: 0px 0px 10px  rgb(24, 32, 36);
 }
-.form_1{
-
+/* .form-control:focus{
+  border:1px solid red !important;
+} */
+.form-control:focus{
+  border:1px solid red !important;
+}
+.contact{
+  background-color: #f7f7f7;
 }
