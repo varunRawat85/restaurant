@@ -20,9 +20,9 @@
 <body>
   <!-- header ------------------------------------------------------------------------------------------>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand mx-5" href="#">
+  <nav class="navbar navbar-expand-xl navbar-light bg-light fixed-top">
+    <div class="container container-md-fluid">
+      <a class="navbar-brand mx-2 mx-md-5" href="#">
         <h1>Yummy.</h1>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -38,21 +38,23 @@
             <a class="nav-link text-dark h5 mx-2 header-link" href="#about_us">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark h5 mx-2 header-link">Menu</a>
+            <a class="nav-link text-dark h5 mx-2 header-link" href="#menu">Menu</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link text-dark h5 mx-2 header-link">Events</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link text-dark h5 mx-2 header-link" href="#chefs">Chefs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark h5 mx-2 header-link">Chefs</a>
+            <a class="nav-link text-dark h5 mx-2 header-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark h5 mx-2 header-link">Gallery</a>
-          <li class="nav-item">
-            <a class="nav-link text-dark h5 mx-2 header-link">Contact</a>
+            <a class="nav-link text-dark h5 mx-2 header-link" href="#booking">
+              <div class="btn btn-outline-danger rounded-pill ">Book a Table</div>
+            </a>
           </li>
         </ul>
-        <div class="btn btn-outline-danger rounded-pill ">Book a Table</div>
       </div>
     </div>
   </nav>
@@ -61,19 +63,22 @@
 
   <!-- banner ------------------------------------------------------------------------------------------>
 
-  <div class="container-fluid banner p-5  ">
-    <div class="row  justify-content-center gx-5">
-      <div class="col-4 d-flex flex-wrap  bantit">
-        <span class="display-3 d-flex align-items-center ban1" data-aos="fade-up" data-aos-duration="1000">Enjoy Your
+  <div class="container-fluid banner p-5 ">
+    <div class="row ">
+      <div class="col-12 col-lg-4 d-flex flex-wrap  bantit  ">
+        <span class="display-3 d-flex align-items-center  ban1" data-aos="fade-up" data-aos-duration="1000">Enjoy
+          Your
           Healthy Delicious Food</span>
-        <span data-aos="fade-up" data-aos-duration="2000">Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+        <span class="mt-lg-0 mt-2" data-aos="fade-up" data-aos-duration="1200">Sed autem laudantium dolores. Voluptatem
+          itaque ea consequatur
           eveniet. Eum quas beatae cumque eum
           quaerat.</span>
-        <span data-aos="fade-up" data-aos-duration="3000"><a class="btn btn-danger rounded-pill px-4 " id="bookbtn"
-            href="#" role="button">Book a Table</a></span>
+        <span class="mt-lg-0 mt-2" data-aos="fade-up" data-aos-duration="1200"><a
+            class="btn btn-danger rounded-pill px-4 " id="bookbtn" href="#" role="button">Book a Table</a></span>
       </div>
-      <div data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="1000" class="col-6 text-end  pt-5"><img
-          src="images/hero-img.png" alt="" id="ban"></div>
+      <div class="col-12 col-lg-6 text-end pt-3 pt-sm-4 pt-md-5 d-flex justify-content-center" data-aos="zoom-out"
+        data-aos-easing="linear" data-aos-duration="1000"><img src="images/hero-img.png" alt="" class="img-fluid"
+          id="ban"></div>
     </div>
   </div>
   <!-- banner end--------------->
@@ -81,25 +86,24 @@
 
   <!-- about us ------------------------------------------------------------------------------------------>
 
-  <div class="container-fluid" id="about_us">
+  <div class="container-fluid " id="about_us">
     <!-- about_heading-------------------- -->
     <div class="row text-center" data-aos="fade-up" data-aos-duration="1000">
       <div class="col-12">ABOUT US</div>
       <div class="col-12 display-4 more">Learn More <span class="text-danger">About Us</span></div>
     </div>
     <!-- about_topic-------------------- -->
-    <div class="row mx-5 g-0 text-center mt-3">
+    <div class="row  mx-3 g-0 text-center mt-3">
       <!-- big_img------------------------------------ -->
-      <div class="col-7  overflow-hidden position-relative" data-aos="fade-up" data-aos-duration="1500"><img
-          src="images/about.jpg" class="abt_img" alt="">
-        <div class="position-absolute bg-light bottom-0 mb-5 px-5 p-3 img_col" data-aos="fade-up"
-          data-aos-duration="2000">
-          <div class="text-dark h3">Book a Table</div>
-          <div class="text-danger h1">+1 5589 55488 55</div>
+      <div class="col-12 col-lg-7 px-sm-3 overflow-hidden position-relative" data-aos="fade-up"
+        data-aos-duration="1200"><img src="images/about.jpg" class="img-lg-fluid" alt="">
+        <div class="position-absolute bg-light bottom-0 mb-5 p-0 p-sm-2 p-lg-0 p-xl-1 start-50 translate-middle" >
+          <div class="text-dark h3 book">Book a Table</div>
+          <div class="text-danger h1 number">+1 5589 55488 55</div>
         </div>
       </div>
       <!-- 2nd column------------------------------------ -->
-      <div class="col-5  px-5 pt-3" data-aos="fade-up" data-aos-duration="1600">
+      <div class="col-12 col-lg-5 px-2 px-sm-3 px-md-5 pt-3" data-aos="fade-up" data-aos-duration="1600">
         <div class="text-start fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor
           incididunt ut labore et dolore magna aliqua.</div>
@@ -114,7 +118,7 @@
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
           cupidatat
           non proident</div>
-        <div class="text-start mt-4 ps-3 " data-aos="fade-up" data-aos-duration="2000">
+        <div class="text-start mt-4" data-aos="fade-up" data-aos-duration="2000">
           <img src="images/about-2.jpg" class="img-fluid" alt="">
         </div>
       </div>
@@ -125,11 +129,11 @@
 
   <!-- why us------------------------------------------------------------------------------------------>
 
-  <div class="why_us py-5">
-    <div class="container py-4  px-2 overflow-hidden">
+  <div class="why_us py-5 mt-3">
+    <div class="container-fluid container-lg py-4  px-2 overflow-hidden">
       <div class="row ">
         <!-- why_us_box-------------------- -->
-        <div class="col-4   px-5 text-light" id="why_us_box" data-aos="fade-up" data-aos-duration="1000">
+        <div class="col-12  col-xl-4   px-5 text-light" id="why_us_box" data-aos="fade-up" data-aos-duration="1000">
           <h1 class="pt-5  ">Why Choose Yummy?</h1>
           <p class="pt-3  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempor incididunt ut labore et
@@ -141,9 +145,9 @@
         <!-- why_us_side_box------------------------------------------ -->
 
         <!-- why_us_side_box1------------------------- -->
-        <div class="col-8 d-flex flex-wrap">
-          <div class="row  gx-3 py-5 px-3">
-            <div class="col  px-4 bg-light me-4 why_us_side_box" data-aos="fade-up" data-aos-duration="1300">
+        <div class="col-12  col-xl-8 d-flex flex-wrap">
+          <div class="row gy-3 gy-md-0  gx-3 py-5 px-3">
+            <div class="col-12 col-md   px-4 bg-light me-4 why_us_side_box" data-aos="fade-up" data-aos-duration="1300">
               <div class="text-center py-4"><img class="w-25" src="images/chart.png" alt=""></div>
               <div class="text-center h4 pt-3">Corporis voluptates officia eiusmod</div>
               <p class="text-center pt-3">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
@@ -151,7 +155,7 @@
             </div>
 
             <!-- why_us_side_box2------------------------- -->
-            <div class="col px-4 bg-light me-4 why_us_side_box" data-aos="fade-up" data-aos-duration="1600">
+            <div class="col-12 col-md  px-4 bg-light me-4 why_us_side_box" data-aos="fade-up" data-aos-duration="1600">
               <div class="text-center py-4"><img class="w-25" src="images/diamond.png" alt=""></div>
               <div class="text-center h4 pt-3">Ullamco laboris ladore pan</div>
               <p class="text-center pt-3">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
@@ -160,7 +164,7 @@
             </div>
 
             <!-- why_us_side_box------------------------- -->
-            <div class="col px-4 bg-light why_us_side_box" data-aos="fade-up" data-aos-duration="1900">
+            <div class="col-12 col-md  px-4 bg-light why_us_side_box" data-aos="fade-up" data-aos-duration="1900">
               <div class="text-center py-4"><img class="w-25" src="images/network.png" alt=""></div>
               <div class="text-center h4 pt-3">Labore consequatur incidid dolore</div>
               <p class="text-center pt-3">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
@@ -175,7 +179,7 @@
 
 
   <!-- counter start------------------------------------------------------------------------------ -->
-  <div class="container-fluid  count_ban">
+  <div class="container-fluid  count_ban ">
     <!-- <img class="img-fluid" src="images/stats-bg.jpg" alt=""> -->
     <!-- <div class="row border border-danger mx-5 ">
       <div class="col-3 text-center h1">
@@ -200,104 +204,257 @@
 
 
   <!-- menu start------------------------------------------------------------------------------------ -->
-  <div class="container-fluid pt-5">
+  <div class="container-fluid pt-5 " id="menu">
     <!-- heading----------- -->
     <div class="row text-center mb-5 " data-aos="fade-up" data-aos-duration="1100">
       <div class="col-12">OUR MENU</div>
       <div class="col-12 display-4 more">Check Our <span class="text-danger">Yummy Menu</span></div>
     </div>
     <!-- inner_container-------- -->
-    <div class="container mx-auto  inner_saying_us p-0">
-      <!-- carousel start---------- -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
-        </div>
-
-        <!-- inside the carousal------------ -->
-        <div class="carousel-inner p-0 " data-aos="fade-up" data-aos-duration="1500">
-
-          <!-- item_1----------- -->
-          <div class="carousel-item active  ">
-            <div class="row py-2">
-            
-            </div>
-          </div>
-
-          <!-- item_2------------ -->
-          <div class="carousel-item ">
-            <div class="row py-2">
-              <div class="col-9 px-4">
-                <p class="fst-italic">Export tempor illum tamen malis malis eram quae irure esse labore quem cillum
-                  quid
-                  cillum eram malis
-                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</p>
-                <div class="h4">Sara Wilsson</div>
-                <div class="text-secondary">Designer</div>
-                <div>
-                  <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
-                  <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
-                  <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
-                  <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
-                  <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
-                </div>
+    <div class="container mx-auto d-flex flex-wrap justify-content-center cont">
+      <!-- Starters--------- -->
+      <div class="form-check">
+        <input class="form-check-input d-none" type="radio" name="menu" id="Starters" checked>
+        <label class="form-check-label h3" for="Starters">
+          Starters
+        </label>
+        <div class=" container tab d-none">
+          <div class="row text-center mb-5 ">
+            <div class="col-12">MENU</div>
+            <div class="col-12 display-4 more text-danger">Starters</div>
+            <div class="col-4">
+              <img src="images/menu-item-1.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Magnam Tiste</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$5.95</div>
               </div>
-              <div class="col-3"><img src="images/testimonials-2.jpg" class="w-75 rounded-circle" alt=""></div>
             </div>
-          </div>
-
-          <!-- item_3----------- -->
-          <div class="carousel-item ">
-            <div class="row py-2">
-              <div class="col-9 px-4">
-                <p class="fst-italic">Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
-                  veniam
-                  duis minim tempor
-                  labore quem eram duis noster aute amet eram fore quis sint minim.</p>
-                <div class="h4">Jena Karlis</div>
-                <div class="text-secondary">Store Owner</div>
-                <div>
-                </div>
+            <div class="col-4">
+              <img src="images/menu-item-2.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Aut Luia</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$14.95</div>
               </div>
-              <div class="col-3"><img src="images/testimonials-3.jpg" class="w-75 rounded-circle" alt=""></div>
             </div>
-          </div>
-
-          <!-- item_4------------- -->
-          <div class="carousel-item ">
-            <div class="row py-2">
-              <div class="col-9 px-4">
-                <p class="fst-italic"> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor
-                  noster
-                  veniam enim culpa
-                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</p>
-                <div class="h4">John Larson</div>
-                <div class="text-secondary">Entrepreneur</div>
-                <div>
-                  <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
-                  <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
-                  <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
-                  <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
-                  <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
-                </div>
+            <div class="col-4">
+              <img src="images/menu-item-3.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Est Eligendi</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$8.95</div>
               </div>
-              <div class="col-3"><img src="images/testimonials-4.jpg" class="w-75 rounded-circle" alt=""></div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-4.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Eos Luibusdam</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$12.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-5.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Eos Luibusdam</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$12.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-6.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Laboriosam Direva</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$9.95</div>
+              </div>
             </div>
           </div>
         </div>
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-          </button> -->
+      </div>
+      <!-- Breakfast---------- -->
+      <div class="form-check">
+        <input class="form-check-input d-none" type="radio" name="menu" id="Breakfast">
+        <label class="form-check-label h3" for="Breakfast">
+          Breakfast
+        </label>
+        <div class=" container tab d-none">
+          <div class="row text-center mb-5 ">
+            <div class="col-12">MENU</div>
+            <div class="col-12 display-4 more text-danger">Breakfast</div>
+            <div class="col-4">
+              <img src="images/menu-item-1.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Magnam Tiste</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$5.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-2.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Aut Luia</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$14.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-3.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Est Eligendi</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$8.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-4.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Eos Luibusdam</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$12.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-5.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Eos Luibusdam</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$12.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-6.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Laboriosam Direva</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$9.95</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Lunch-------------- -->
+      <div class="form-check">
+        <input class="form-check-input d-none" type="radio" name="menu" id="Lunch">
+        <label class="form-check-label h3" for="Lunch">
+          Lunch
+        </label>
+        <div class=" container tab d-none">
+          <div class="row text-center mb-5 ">
+            <div class="col-12">MENU</div>
+            <div class="col-12 display-4 more text-danger">Lunch</div>
+            <div class="col-4">
+              <img src="images/menu-item-1.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Magnam Tiste</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$5.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-2.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Aut Luia</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$14.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-3.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Est Eligendi</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$8.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-4.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Eos Luibusdam</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$12.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-5.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Eos Luibusdam</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$12.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-6.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Laboriosam Direva</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$9.95</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Dinner------------- -->
+      <div class="form-check">
+        <input class="form-check-input d-none" type="radio" name="menu" id="Dinner">
+        <label class="form-check-label h3" for="Dinner">
+          Dinner
+        </label>
+        <div class=" container tab d-none">
+          <div class="row text-center mb-5 ">
+            <div class="col-12">MENU</div>
+            <div class="col-12 display-4 more text-danger">Dinner</div>
+            <div class="col-4">
+              <img src="images/menu-item-1.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Magnam Tiste</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$5.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-2.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Aut Luia</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$14.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-3.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Est Eligendi</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$8.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-4.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Eos Luibusdam</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$12.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-5.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Eos Luibusdam</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$12.95</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="images/menu-item-6.png" class="img-fluid" alt="">
+              <div class="my-3">
+                <div class="h3 ">Laboriosam Direva</div>
+                <p class="pt-2">Lorem, deren, trataro, filede, nerada</p>
+                <div class="text-danger h4">$9.95</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -305,14 +462,14 @@
 
 
   <!-- saying about us-------------------------------------------------------------------------------- -->
-  <div class="container-fluid saying_us ">
+  <div class="container-fluid saying_us mb-5 ">
     <!-- heading----------- -->
     <div class="row text-center mb-5 " data-aos="fade-up" data-aos-duration="1000">
       <div class="col-12">TESTIMONIALS</div>
       <div class="col-12 display-4 more">What Are They <span class="text-danger">Saying About Us</span></div>
     </div>
     <!-- inner_container-------- -->
-    <div class="container mx-auto  inner_saying_us p-0">
+    <div class="container mx-auto  inner_saying_us ">
       <!-- carousel start---------- -->
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -327,12 +484,12 @@
         </div>
 
         <!-- inside the carousal------------ -->
-        <div class="carousel-inner p-0 " data-aos="fade-up" data-aos-duration="1500">
+        <div class="carousel-inner  p-0 " data-aos="fade-up" data-aos-duration="1500">
 
           <!-- item_1----------- -->
-          <div class="carousel-item active  caro_use">
+          <div class="carousel-item active  border  border-2 border-danger">
             <div class="row py-2">
-              <div class="col-9 px-4">
+              <div class="col-12 col-lg-9 px-4 text-lg-start text-center">
                 <p class="fst-italic"> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
                   suscipit
                   rhoncus. Accusantium
@@ -347,14 +504,15 @@
                   <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
                 </div>
               </div>
-              <div class="col-3"><img src="images/testimonials-1.jpg" class="w-75 rounded-circle" alt=""></div>
+              <div class=" col-12 col-lg-3 text-center text-lg-start"><img src="images/testimonials-1.jpg"
+                  class="w-75 rounded-circle" alt=""></div>
             </div>
           </div>
 
           <!-- item_2------------ -->
-          <div class="carousel-item caro_use">
+          <div class="carousel-item border border-lg-start border-2 border-danger">
             <div class="row py-2">
-              <div class="col-9 px-4">
+              <div class="col-12 col-lg-9 px-4 text-lg-start text-center">
                 <p class="fst-italic">Export tempor illum tamen malis malis eram quae irure esse labore quem cillum
                   quid
                   cillum eram malis
@@ -369,14 +527,15 @@
                   <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
                 </div>
               </div>
-              <div class="col-3"><img src="images/testimonials-2.jpg" class="w-75 rounded-circle" alt=""></div>
+              <div class=" col-12 col-lg-3 text-center text-lg-start"><img src="images/testimonials-2.jpg"
+                  class="w-75 rounded-circle" alt=""></div>
             </div>
           </div>
 
           <!-- item_3----------- -->
-          <div class="carousel-item caro_use">
+          <div class="carousel-item border border-lg-start border-2 border-danger">
             <div class="row py-2">
-              <div class="col-9 px-4">
+              <div class="col-12 col-lg-9 px-4 text-lg-start text-center">
                 <p class="fst-italic">Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
                   veniam
                   duis minim tempor
@@ -391,14 +550,15 @@
                   <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
                 </div>
               </div>
-              <div class="col-3"><img src="images/testimonials-3.jpg" class="w-75 rounded-circle" alt=""></div>
+              <div class=" col-12 col-lg-3 text-center text-lg-start"><img src="images/testimonials-3.jpg"
+                  class="w-75 rounded-circle" alt=""></div>
             </div>
           </div>
 
           <!-- item_4------------- -->
-          <div class="carousel-item caro_use">
+          <div class="carousel-item border border-lg-start border-2 border-danger">
             <div class="row py-2">
-              <div class="col-9 px-4">
+              <div class="col-12 col-lg-9 px-4 text-lg-start text-center">
                 <p class="fst-italic"> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor
                   noster
                   veniam enim culpa
@@ -413,7 +573,8 @@
                   <i class="fa-solid fa-star" style="color: #ffbb00;"></i>
                 </div>
               </div>
-              <div class="col-3"><img src="images/testimonials-4.jpg" class="w-75 rounded-circle" alt=""></div>
+              <div class=" col-12 col-lg-3 text-center text-lg-start"><img src="images/testimonials-4.jpg"
+                  class="w-75 rounded-circle" alt=""></div>
             </div>
           </div>
         </div>
@@ -430,17 +591,17 @@
 
 
   <!-- chefs------------------------------------------------------------------------------------------- -->
-  <div class="container-fluid chef">
+  <div class="container-fluid chef " id="chefs">
     <!-- heading----------- -->
     <div class="row text-center mb-5 " data-aos="fade-up" data-aos-duration="1000">
       <div class="col-12">CHEFS</div>
       <div class="col-12 display-4 more">Our<span class="text-danger">Proffesional</span>Chefs</div>
 
       <!-- chef_cards---------- -->
-      <div class="container ">
-        <div class="row ">
-          <div class="col-4 text-center " data-aos="fade-up" data-aos-duration="1100">
-            <div class="card chef_box" style="width: 20rem;">
+      <div class="container">
+        <div class="row gy-3 d-flex flex-wrap justify-content-center">
+          <div class="col-12 col-lg-4  " data-aos="fade-up" data-aos-duration="1100">
+            <div class="card chef_box ">
               <img src="images/chefs-1.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-body ">
                 <h5 class="card-title h4 pt-2">Walter White</h5>
@@ -452,8 +613,8 @@
               </div>
             </div>
           </div>
-          <div class="col-4 text-center " data-aos="fade-up" data-aos-duration="1200">
-            <div class="card chef_box" style="width: 20rem;">
+          <div class="col-12 col-lg-4  " data-aos="fade-up" data-aos-duration="1100">
+            <div class="card chef_box ">
               <img src="images/chefs-2.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-body ">
                 <h5 class="card-title h4 pt-2">Sarah Jhonson</h5>
@@ -465,8 +626,8 @@
               </div>
             </div>
           </div>
-          <div class="col-4 text-center " data-aos="fade-up" data-aos-duration="1300">
-            <div class="card chef_box" style="width: 20rem;">
+          <div class="col-12 col-lg-4  " data-aos="fade-up" data-aos-duration="1100">
+            <div class="card chef_box ">
               <img src="images/chefs-3.jpg" class="card-img-top img-fluid" alt="...">
               <div class="card-body ">
                 <h5 class="card-title h4 pt-2">William Anderson</h5>
@@ -486,7 +647,7 @@
 
 
   <!-- booking table ------------------------------------------------------------------------------------->
-  <div class="container-fluid pt-5">
+  <div class="container-fluid pt-3 pt-lg-5 " id="booking">
     <!-- heading----------- -->
     <div class="row text-center mb-5 " data-aos="fade-up" data-aos-duration="1100">
       <div class="col-12">BOOK A TABLE</div>
@@ -495,30 +656,33 @@
     <!-- inside_table---------- -->
     <div class="container mb-5">
       <div class="row  g-0">
-        <div class="col-4"><img src="images/reservation.jpg" data-aos="zoom-out" data-aos-duration="1200"
+        <div class="col-12 col-lg-4"><img src="images/reservation.jpg" data-aos="zoom-out" data-aos-duration="1200"
             class="img-fluid" alt=""></div>
         <!-- form for table booking----- -->
-        <div class="col-8 form_1 px-4 d-flex flex-wrap py-5">
-          <div class="row g-3 align-items-center " data-aos="fade-up" data-aos-duration="1300">
-            <div class="col-4"><input type="text" class="form-control" placeholder="Your Name" aria-label="First name">
-            </div>
-            <div class="col-4"><input type="email" class="form-control" placeholder="Your Email"
+        <div class="col-12 col-lg-8 form_1 px-4 d-flex flex-wrap py-5" data-aos="fade-up" data-aos-duration="1200">
+          <div class="row g-3 align-items-center ">
+            <div class="col-12 col-md-6 col-lg-4"><input type="text" class="form-control" placeholder="Your Name"
                 aria-label="First name">
             </div>
-            <div class="col-4"><input type="number" class="form-control" placeholder="Your Phone"
+            <div class="col-12 col-md-6 col-lg-4"><input type="email" class="form-control" placeholder="Your Email"
                 aria-label="First name">
             </div>
-            <div class="col-4"><input type="date" class="form-control" placeholder="Date" aria-label="First name">
+            <div class="col-12 col-md-6 col-lg-4"><input type="number" class="form-control" placeholder="Your Phone"
+                aria-label="First name">
             </div>
-            <div class="col-4"><input type="time" class="form-control" placeholder="Time" aria-label="First name">
+            <div class="col-12 col-md-6 col-lg-4"><input type="date" class="form-control" placeholder="Date"
+                aria-label="First name">
             </div>
-            <div class="col-4"><input type="number" class="form-control" placeholder="#of people"
+            <div class="col-12 col-md-6 col-lg-4"><input type="time" class="form-control" placeholder="Time"
+                aria-label="First name">
+            </div>
+            <div class="col-12 col-md-6 col-lg-4"><input type="number" class="form-control" placeholder="#of people"
                 aria-label="First name">
             </div>
             <div class="col-12"><textarea name="" id="" rows="5" class="form-control" placeholder="Message"
                 aria-label="First name"></textarea>
             </div>
-            <div class="d-flex flex-wrap justify-content-center" data-aos="fade-up" data-aos-duration="1300">
+            <div class="d-flex flex-wrap justify-content-center">
               <div class="btn btn-outline-danger rounded-pill px-5  ">Book a Table</div>
             </div>
           </div>
@@ -531,38 +695,38 @@
 
 
   <!-- contact---------------------------------------------------------------------------------------- -->
-  <div class="container-fluid py-5 contact">
+  <div class="container-fluid py-3 contact " id="contact">
     <!-- heading----------- -->
-    <div class="row text-center mb-5 " data-aos="fade-up" data-aos-duration="1100">
+    <div class="row text-center mb-4  " data-aos="fade-up" data-aos-duration="1100">
       <div class="col-12">BOOK A TABLE</div>
       <div class="col-12 display-4 more">Need Help?<span class="text-danger">Contact Us</span></div>
     </div>
-    <div class="container mb-5  border border-dark bg-light" data-aos="fade-up" data-aos-duration="1200">
-      <div class="row  p-3 gy-4 d-flex flex-wrap justify-content-between ">
-        <div class="col-5 d-flex flex-wrap align-items-center  mx-4  contact_in py-3">
-          <i class="fa-solid fa-map fa-xl"></i>
-          <div class="mx-5">
+    <div class="container mb-0 mb-sm-2 bg-light " data-aos="fade-up" data-aos-duration="1200">
+      <div class="row p-3 gy-2  gy-md-4 d-flex flex-wrap justify-content-md-between justify-content-center ">
+        <div class="col-12 col-md-5   d-lg-flex flex-wrap  align-items-center   mx-4  contact_in py-3 ">
+          <i class="fa-solid fa-map fa-xl ms-3 mx-lg-0 "></i>
+          <div class="mx-2 px-2">
             <h3 class="text-secondary">Our Address</h3>
             <div>A108 Adam Street, New York, NY 535022</div>
           </div>
         </div>
-        <div class="col-5 d-flex flex-wrap align-items-center   mx-4 contact_in py-3">
-          <i class="fa-solid fa-envelope fa-xl"></i>
-          <div class="mx-5">
+        <div class="col-12 col-md-5   d-lg-flex flex-wrap  align-items-center   mx-4 contact_in py-3 ">
+          <i class="fa-solid fa-envelope fa-xl ms-3 mx-lg-0 "></i>
+          <div class="mx-2 px-2">
             <h3 class="text-secondary">Email Us</h3>
             <div>contact@example.com</div>
           </div>
         </div>
-        <div class="col-5 d-flex flex-wrap align-items-center   mx-4 contact_in py-3">
-          <i class="fa-solid fa-phone fa-xl"></i>
-          <div class="mx-5">
+        <div class="col-12 col-md-5   d-lg-flex flex-wrap  align-items-center    mx-4 contact_in py-3 ">
+          <i class="fa-solid fa-phone fa-xl ms-3 mx-lg-0 "></i>
+          <div class="mx-2 px-2">
             <h3 class="text-secondary">Call Us</h3>
             <div>+1 5589 55488 55</div>
           </div>
         </div>
-        <div class="col-5 d-flex flex-wrap align-items-center   mx-4 contact_in py-3">
-          <i class="fa-solid fa-clock fa-xl "></i>
-          <div class="mx-5">
+        <div class="col-12 col-md-5   d-lg-flex flex-wrap  align-items-center    mx-4 contact_in py-3 ">
+          <i class="fa-solid fa-clock fa-xl ms-3 mx-lg-0  "></i>
+          <div class="mx-2 px-2">
             <h3 class="text-secondary">Opening Hours</h3>
             <div>Mon-Sat: 11AM - 23PM; Sunday: Closed</div>
           </div>
@@ -571,9 +735,10 @@
     </div>
     <div class="container mb-5 bg-light" data-aos="fade-up" data-aos-duration="1200">
       <div class="row px-2">
-        <div class="col-6 mt-5"><input type="text" class="form-control" placeholder="Your Name" aria-label="First name">
+        <div class="col-12 col-md-6 mt-5"><input type="text" class="form-control" placeholder="Your Name"
+            aria-label="First name">
         </div>
-        <div class="col-6 mt-5"><input type="email" class="form-control" placeholder="Your Email"
+        <div class="col-12 col-md-6 mt-5"><input type="email" class="form-control" placeholder="Your Email"
             aria-label="First name">
         </div>
         <div class="col-12 mt-5"><input type="text" class="form-control" placeholder="Subject" aria-label="First name">
@@ -593,31 +758,31 @@
 
   <!-- footer----------------------------------------------------------------------------------------- -->
   <div class="container-fluid bg-dark text-light ">
-    <div class="container ">
-      <div class="row  border-bottom border-success">
-        <div class="col  pt-5">
+    <div class="container d-flex flex-wrap">
+      <div class="row  border-bottom border-success d-flex flex-wrap justify-content-center">
+        <div class="col-lg-3 col-md-6 col-sm-12 pt-5 pb-2">
           <div class="h4"><i class="fa-solid fa-location-dot mx-2"></i>Address</div>
           <p class="p-3 px-4">A108 Adam Street
             New York, NY 535022 - US</p>
         </div>
-        <div class="col  pt-5">
+        <div class="col-lg-3 col-md-6 col-sm-12 pt-5 pb-2">
           <div class="h4"><i class="fa-solid fa-phone  mx-2"></i>Reservations</div>
           <p class="p-3 px-4">Phone: +1 5589 55488 55
             Email: info@example.com</p>
         </div>
-        <div class="col  pt-5">
+        <div class="col-lg-3 col-md-6 col-sm-12 pt-5 pb-2">
           <div class="h4"><i class="fa-solid fa-clock mx-2"></i>Opening Hours</div>
           <p class="p-3 px-4">Mon-Sat: 11AM - 23PM
             Sunday: Closed</p>
         </div>
-        <div class="col  pt-5">
+        <div class="col-lg-3 col-md-6 col-sm-12 pt-5 pb-2 ps-5 ">
           <div class="h4 px-3">Follow Us</div>
           <div class="pt-3"><i class="fa-brands fa-twitter mx-3"></i><i class="fa-brands fa-facebook mx-3"></i><i
               class="fa-brands fa-instagram mx-3"></i></div>
         </div>
       </div>
       <div class="row text-center py-5">
-        <div class="col-12  ">© Copyright Yummy. All Rights Reserved Designed by BootstrapMade</div>
+        <div class="col-12">© Copyright Yummy. All Rights Reserved Designed by BootstrapMade</div>
       </div>
     </div>
   </div>
@@ -625,7 +790,8 @@
 
 
 
-  <!-- <script src="1.js"></script> -->
+  <!-- javascript------------------------------------------------------------------ -->
+
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
