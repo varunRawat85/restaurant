@@ -2,7 +2,6 @@
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
-
 }
 .navbar-collapse{
     margin-left:200px
@@ -89,6 +88,10 @@ box-sizing: border-box;
 /* .cont>.form-check>input[type='radio']:checked+label+div{
 display: block !important;
 } */
+
+.navbar{
+  overflow-x:hidden !important;
+}
 
 @media only screen and (min-width:768px){
   .saying_us{
